@@ -11,11 +11,15 @@
     "crates/wasm-smith/src/component.rs",
     "crates/wasm-smith/src/core.rs",
     "crates/wasm-smith/src/core/code_builder.rs",
+    "crates/wasm-smith/src/core/code_builder/no_traps.rs",
     "crates/wasmparser/src/validator/names.rs",
+    "crates/wasmparser/src/validator/operators.rs",
     "crates/wasmprinter/src/lib.rs",
     "crates/wast/src/component/expand.rs",
     "crates/wast/src/component/resolve.rs",
+    "crates/wast/src/core/expr.rs",
     "crates/wast/src/core/resolve/names.rs",
+    "crates/wast/src/lexer.rs",
     "crates/wit-component/src/decoding.rs",
     "crates/wit-component/src/encoding.rs",
     "crates/wit-component/src/encoding/types.rs",
@@ -30,7 +34,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0ab39f19dc601f988a9a2f4717da4deadf3d2b31.nq.gz",
     "call_sites": 39952,
     "import_statements": 496,
-    "call_targets_resolved": 14085,
+    "call_targets_resolved": 16959,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -44,5 +48,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1808
+  "elapsed_seconds": 1803
 }
