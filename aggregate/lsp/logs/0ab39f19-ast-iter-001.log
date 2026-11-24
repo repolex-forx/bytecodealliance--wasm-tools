@@ -1,0 +1,7 @@
+[2026-11-24T19:34:45Z] === AST ITERATION 1 START | repo=bytecodealliance/wasm-tools sha=0ab39f19 ===
+[2026-11-24T19:34:45Z] [iter=1] PHASE START: ast repo=bytecodealliance/wasm-tools sha=0ab39f19
+[2026-11-24T19:34:45Z] [iter=1] Building AST aggregate chunks
+[2026-11-24T19:42:45Z] [iter=1] AST chunks built count=1 triples=4568738
+[2026-11-24T19:42:45Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/0ab39f19dc601f988a9a2f4717da4deadf3d2b31/.complete
+[2026-11-24T19:42:45Z] [iter=1] PHASE END: ast elapsed_s=480 elapsed_min=8.0
+[2026-11-24T19:42:45Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
