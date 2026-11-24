@@ -23,13 +23,13 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "branch",
       "repolex:graphFilePath": "branch/branch.nq.gz",
-      "repolex:graphFileSize": 1469
+      "repolex:graphFileSize": 1453
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "tag",
       "repolex:graphFilePath": "tag/tag.nq.gz",
-      "repolex:graphFileSize": 37052
+      "repolex:graphFileSize": 37498
     },
     {
       "@type": "repolex:GraphFile",
@@ -45,7 +45,7 @@
     }
   ],
   "repolex:parseStatus": "metadata_complete",
-  "repolex:parsedAt": "2026-11-24T17:45:03.137596+00:00",
+  "repolex:parsedAt": "2026-11-24T17:54:45.358977+00:00",
   "repolex:parserVersion": "0.1.10",
   "git:tagName": "wit-smith-0.1.30"
 }
