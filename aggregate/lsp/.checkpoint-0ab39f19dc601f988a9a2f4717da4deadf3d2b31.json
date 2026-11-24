@@ -4,6 +4,7 @@
     "crates/fuzz-stats/src/dummy.rs",
     "crates/wasm-compose/src/encoding.rs",
     "crates/wasm-compose/src/graph.rs",
+    "crates/wasm-encoder/src/core/code.rs",
     "crates/wasm-mutate/src/mutators/custom.rs",
     "crates/wasm-mutate/src/mutators/peephole/eggsy/analysis.rs",
     "crates/wasm-mutate/src/mutators/remove_item.rs",
@@ -19,6 +20,7 @@
     "crates/wit-component/src/encoding.rs",
     "crates/wit-component/src/encoding/types.rs",
     "crates/wit-component/src/encoding/world.rs",
+    "crates/wit-parser/src/ast.rs",
     "crates/wit-parser/src/ast/resolve.rs",
     "crates/wit-parser/src/resolve.rs"
   ],
@@ -28,7 +30,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0ab39f19dc601f988a9a2f4717da4deadf3d2b31.nq.gz",
     "call_sites": 39952,
     "import_statements": 496,
-    "call_targets_resolved": 12123,
+    "call_targets_resolved": 14085,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -42,5 +44,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1804
+  "elapsed_seconds": 1808
 }
