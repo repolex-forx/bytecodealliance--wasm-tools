@@ -1,0 +1,32 @@
+{
+  "commit_sha": "0ab39f19dc601f988a9a2f4717da4deadf3d2b31",
+  "completed_files": [
+    "crates/fuzz-stats/src/dummy.rs",
+    "crates/wasm-compose/src/encoding.rs",
+    "crates/wast/src/core/resolve/names.rs",
+    "crates/wit-component/src/encoding/types.rs",
+    "crates/wit-component/src/encoding/world.rs",
+    "crates/wit-parser/src/ast/resolve.rs"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/bytecodealliance/wasm-tools/lsp/0ab39f19dc601f988a9a2f4717da4deadf3d2b31",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0ab39f19dc601f988a9a2f4717da4deadf3d2b31.nq.gz",
+    "call_sites": 39952,
+    "import_statements": 496,
+    "call_targets_resolved": 2056,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 0,
+    "implements_clauses": 162,
+    "import_modules_denormalized": 912,
+    "import_symbols_denormalized": 0,
+    "extends_class_denormalized": 0,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1810
+}
