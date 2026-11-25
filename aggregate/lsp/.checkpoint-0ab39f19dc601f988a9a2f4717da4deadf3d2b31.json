@@ -13,10 +13,12 @@
     "crates/wasm-mutate/src/mutators/peephole/eggsy/encoder/expr2wasm.rs",
     "crates/wasm-mutate/src/mutators/peephole/eggsy/expr_enumerator.rs",
     "crates/wasm-mutate/src/mutators/remove_item.rs",
+    "crates/wasm-shrink/src/lib.rs",
     "crates/wasm-smith/src/component.rs",
     "crates/wasm-smith/src/core.rs",
     "crates/wasm-smith/src/core/code_builder.rs",
     "crates/wasm-smith/src/core/code_builder/no_traps.rs",
+    "crates/wasmparser/src/binary_reader.rs",
     "crates/wasmparser/src/readers/core/types.rs",
     "crates/wasmparser/src/validator/core/canonical.rs",
     "crates/wasmparser/src/validator/names.rs",
@@ -58,7 +60,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0ab39f19dc601f988a9a2f4717da4deadf3d2b31.nq.gz",
     "call_sites": 39952,
     "import_statements": 496,
-    "call_targets_resolved": 24743,
+    "call_targets_resolved": 25548,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -72,5 +74,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1806
+  "elapsed_seconds": 1804
 }
