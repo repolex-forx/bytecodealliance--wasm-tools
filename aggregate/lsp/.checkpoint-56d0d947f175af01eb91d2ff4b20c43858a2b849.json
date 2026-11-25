@@ -1,7 +1,10 @@
 {
   "commit_sha": "56d0d947f175af01eb91d2ff4b20c43858a2b849",
   "completed_files": [
+    "crates/wasm-compose/src/composer.rs",
     "crates/wasm-compose/src/graph.rs",
+    "crates/wasm-encoder/src/component/canonicals.rs",
+    "crates/wasm-encoder/src/component/types.rs",
     "crates/wasm-encoder/src/core/code.rs",
     "crates/wasm-encoder/src/core/types.rs",
     "crates/wasm-mutate-stats/src/bin/wasm-mutate-stats.rs",
@@ -9,13 +12,16 @@
     "crates/wasm-mutate/src/lib.rs",
     "crates/wasm-mutate/src/mutators/codemotion/ir.rs",
     "crates/wasm-mutate/src/mutators/peephole.rs",
+    "crates/wasm-mutate/src/mutators/peephole/dfg.rs",
     "crates/wasm-mutate/src/mutators/peephole/eggsy/analysis.rs",
     "crates/wasm-mutate/src/mutators/peephole/eggsy/encoder/expr2wasm.rs",
     "crates/wasm-mutate/src/mutators/peephole/eggsy/expr_enumerator.rs",
     "crates/wasm-smith/src/component.rs",
     "crates/wasm-smith/src/core.rs",
     "crates/wasm-smith/src/core/code_builder.rs",
+    "crates/wasmparser/benches/benchmark.rs",
     "crates/wasmparser/src/binary_reader.rs",
+    "crates/wasmparser/src/readers/core/operators.rs",
     "crates/wasmparser/src/readers/core/types.rs",
     "crates/wasmparser/src/validator.rs",
     "crates/wasmparser/src/validator/component.rs",
@@ -24,12 +30,14 @@
     "crates/wasmparser/src/validator/types.rs",
     "crates/wasmprinter/src/lib.rs",
     "crates/wast/src/component/alias.rs",
+    "crates/wast/src/component/func.rs",
     "crates/wast/src/component/instance.rs",
     "crates/wast/src/component/resolve.rs",
     "crates/wast/src/component/types.rs",
     "crates/wast/src/core/binary.rs",
     "crates/wast/src/core/expr.rs",
     "crates/wast/src/core/types.rs",
+    "crates/wast/src/core/wast.rs",
     "crates/wast/src/token.rs",
     "crates/wast/src/wast.rs",
     "crates/wit-component/src/decoding.rs",
@@ -40,9 +48,11 @@
     "crates/wit-component/tests/targets.rs",
     "crates/wit-parser/src/ast/lex.rs",
     "crates/wit-parser/src/resolve.rs",
+    "crates/wit-parser/src/sizealign.rs",
     "crates/wit-parser/tests/all.rs",
     "crates/wit-smith/src/generate.rs",
-    "src/bin/wasm-tools/dump.rs"
+    "src/bin/wasm-tools/dump.rs",
+    "tests/roundtrip.rs"
   ],
   "completed_types": [],
   "stats": {
@@ -50,7 +60,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/56d0d947f175af01eb91d2ff4b20c43858a2b849.nq.gz",
     "call_sites": 39791,
     "import_statements": 495,
-    "call_targets_resolved": 22544,
+    "call_targets_resolved": 24287,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -64,5 +74,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1801
+  "elapsed_seconds": 1805
 }
