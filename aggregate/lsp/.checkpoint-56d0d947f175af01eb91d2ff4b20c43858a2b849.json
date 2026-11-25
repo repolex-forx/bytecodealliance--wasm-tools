@@ -10,6 +10,9 @@
     "crates/wasm-mutate/src/mutators/codemotion/ir.rs",
     "crates/wasm-mutate/src/mutators/peephole.rs",
     "crates/wasm-mutate/src/mutators/peephole/eggsy/analysis.rs",
+    "crates/wasm-mutate/src/mutators/peephole/eggsy/encoder/expr2wasm.rs",
+    "crates/wasm-mutate/src/mutators/peephole/eggsy/expr_enumerator.rs",
+    "crates/wasm-smith/src/component.rs",
     "crates/wasm-smith/src/core.rs",
     "crates/wasm-smith/src/core/code_builder.rs",
     "crates/wasmparser/src/binary_reader.rs",
@@ -25,14 +28,18 @@
     "crates/wast/src/component/resolve.rs",
     "crates/wast/src/component/types.rs",
     "crates/wast/src/core/binary.rs",
+    "crates/wast/src/core/expr.rs",
     "crates/wast/src/core/types.rs",
+    "crates/wast/src/token.rs",
     "crates/wast/src/wast.rs",
     "crates/wit-component/src/decoding.rs",
     "crates/wit-component/src/dummy.rs",
     "crates/wit-component/src/encoding/wit/v1.rs",
+    "crates/wit-component/src/encoding/world.rs",
     "crates/wit-component/src/linking.rs",
     "crates/wit-component/tests/targets.rs",
     "crates/wit-parser/src/ast/lex.rs",
+    "crates/wit-parser/src/resolve.rs",
     "crates/wit-parser/tests/all.rs",
     "crates/wit-smith/src/generate.rs",
     "src/bin/wasm-tools/dump.rs"
@@ -43,7 +50,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/56d0d947f175af01eb91d2ff4b20c43858a2b849.nq.gz",
     "call_sites": 39791,
     "import_statements": 495,
-    "call_targets_resolved": 19516,
+    "call_targets_resolved": 22544,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -57,5 +64,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1800
+  "elapsed_seconds": 1801
 }
