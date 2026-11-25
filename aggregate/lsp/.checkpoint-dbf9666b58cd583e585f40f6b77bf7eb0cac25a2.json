@@ -1,7 +1,9 @@
 {
   "commit_sha": "dbf9666b58cd583e585f40f6b77bf7eb0cac25a2",
   "completed_files": [
-    "crates/wasm-mutate/src/mutators/peephole/dfg.rs"
+    "crates/wasm-encoder/src/core/code.rs",
+    "crates/wasm-mutate/src/mutators/peephole/dfg.rs",
+    "crates/wasm-smith/src/component.rs"
   ],
   "completed_types": [],
   "stats": {
@@ -9,7 +11,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/dbf9666b58cd583e585f40f6b77bf7eb0cac25a2.nq.gz",
     "call_sites": 39944,
     "import_statements": 496,
-    "call_targets_resolved": 1602,
+    "call_targets_resolved": 3585,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -23,5 +25,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1807
+  "elapsed_seconds": 1804
 }
