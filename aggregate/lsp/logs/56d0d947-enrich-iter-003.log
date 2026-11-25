@@ -1,0 +1,17 @@
+[2026-11-25T05:18:56Z] === ENRICH ITERATION 3 START | repo=bytecodealliance/wasm-tools sha=56d0d947 ===
+[2026-11-25T05:18:56Z] [iter=3] PHASE START: enrich repo=bytecodealliance/wasm-tools sha=56d0d947 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/56d0d947-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/56d0d947f175af01eb91d2ff4b20c43858a2b849.nq.gz
+[2026-11-25T05:19:18Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T05:20:03Z] [iter=3] AST store loaded triples=4552120 load_secs=44 mem_mb=987 MB
+[2026-11-25T05:20:03Z] [iter=3] Step 2: Finding LSP targets mem_mb=987 MB
+[2026-11-25T05:20:20Z] [iter=3] LSP targets found call_sites=39791 imports=495 extends=0 implements=160 secs=17
+[2026-11-25T05:20:23Z] [iter=3] Loaded checkpoint partial graph triples=57223
+[2026-11-25T05:20:23Z] [iter=3] Primed enclosing-def cache from persisted triples entries=812
+[2026-11-25T05:20:36Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=987 MB
+[2026-11-25T05:21:06Z] [iter=3] Position index built positions=293686 nodes_with_types=361814 secs=30 mem_mb=1088 MB
+[2026-11-25T05:21:06Z] [iter=3] Step 3: Starting LSP resolution mem_mb=1088 MB already_completed_types=[] already_completed_files=7
+[2026-11-25T05:21:06Z] [iter=3] Resolving target type target_type=call_site count=39791
+[2026-11-25T05:21:36Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=0 resolved=0 errors=0 current=crates/wasmparser/src/binary_reader.rs
+[2026-11-25T05:49:00Z] [iter=3] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=7 new_files_this_iter=0 mem_mb=1095 MB
+[2026-11-25T05:49:00Z] [iter=3] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/56d0d947f175af01eb91d2ff4b20c43858a2b849.nq.gz triples=65026
+[2026-11-25T05:49:01Z] [iter=3] Checkpoint written, exiting with code 7
+[2026-11-25T05:49:01Z] [iter=3] PHASE END: enrich (checkpointed) elapsed_s=1804 elapsed_min=30.1 files_completed=7
