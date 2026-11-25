@@ -13,6 +13,7 @@
     "crates/wasmparser/src/validator.rs",
     "crates/wasmparser/src/validator/core.rs",
     "crates/wasmparser/src/validator/operators.rs",
+    "crates/wasmprinter/src/lib.rs",
     "crates/wast/src/component/binary.rs",
     "crates/wast/src/component/export.rs",
     "crates/wast/src/component/func.rs",
@@ -33,7 +34,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a6160b38674894612df19be6022af9e4e68a2eda.nq.gz",
     "call_sites": 39793,
     "import_statements": 494,
-    "call_targets_resolved": 14442,
+    "call_targets_resolved": 16111,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -47,5 +48,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1802
+  "elapsed_seconds": 1804
 }
