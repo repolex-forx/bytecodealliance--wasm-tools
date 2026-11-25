@@ -1,0 +1,47 @@
+[2026-11-25T12:23:16Z] === ENRICH ITERATION 16 START | repo=bytecodealliance/wasm-tools sha=56d0d947 ===
+[2026-11-25T12:23:16Z] [iter=16] PHASE START: enrich repo=bytecodealliance/wasm-tools sha=56d0d947 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/56d0d947-enrich-iter-016.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/56d0d947f175af01eb91d2ff4b20c43858a2b849.nq.gz
+[2026-11-25T12:23:37Z] [iter=16] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-25T12:24:46Z] [iter=16] AST store loaded triples=4552120 load_secs=68 mem_mb=986 MB
+[2026-11-25T12:24:46Z] [iter=16] Step 2: Finding LSP targets mem_mb=986 MB
+[2026-11-25T12:25:00Z] [iter=16] LSP targets found call_sites=39791 imports=495 extends=0 implements=160 secs=14
+[2026-11-25T12:25:16Z] [iter=16] Loaded checkpoint partial graph triples=303766
+[2026-11-25T12:25:16Z] [iter=16] Primed enclosing-def cache from persisted triples entries=4220
+[2026-11-25T12:25:27Z] [iter=16] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=986 MB
+[2026-11-25T12:25:50Z] [iter=16] Position index built positions=293686 nodes_with_types=361814 secs=23 mem_mb=1468 MB
+[2026-11-25T12:25:50Z] [iter=16] Step 3: Starting LSP resolution mem_mb=1468 MB already_completed_types=[] already_completed_files=132
+[2026-11-25T12:25:50Z] [iter=16] Resolving target type target_type=call_site count=39791
+[2026-11-25T12:26:16Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=0 resolved=0 errors=0 current=crates/wast/src/core/table.rs
+[2026-11-25T12:27:00Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=3.7 files_done=2 resolved=45 errors=0 current=crates/wasmparser/src/resources.rs
+[2026-11-25T12:27:48Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=4.5 files_done=3 resolved=84 errors=0 current=crates/wit-component/tests/interfaces.rs
+[2026-11-25T12:28:20Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=5.1 files_done=4 resolved=140 errors=0 current=crates/wasm-compose/example/server/src/main.rs
+[2026-11-25T12:29:48Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=6.5 files_done=6 resolved=234 errors=0 current=crates/wasmparser/src/readers/component/aliases.rs
+[2026-11-25T12:30:32Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=7.3 files_done=9 resolved=289 errors=0 current=examples/wasm-smith.rs
+[2026-11-25T12:31:37Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=8.3 files_done=11 resolved=353 errors=0 current=src/bin/wasm-tools/objdump.rs
+[2026-11-25T12:32:34Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=9.3 files_done=12 resolved=425 errors=0 current=crates/fuzz-stats/src/dummy.rs
+[2026-11-25T12:33:12Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=9.9 files_done=14 resolved=491 errors=0 current=crates/wasm-mutate/src/mutators/remove_export.rs
+[2026-11-25T12:34:04Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=10.8 files_done=16 resolved=639 errors=0 current=crates/wasmprinter/tests/all.rs
+[2026-11-25T12:34:47Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=11.5 files_done=17 resolved=713 errors=0 current=crates/wit-parser/src/lib.rs
+[2026-11-25T12:35:17Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=12.0 files_done=18 resolved=795 errors=0 current=crates/wasmparser/src/readers/core/types/matches.rs
+[2026-11-25T12:36:23Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=13.1 files_done=19 resolved=859 errors=0 current=crates/wasmparser/src/readers/core/imports.rs
+[2026-11-25T12:37:16Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=14.0 files_done=21 resolved=909 errors=0 current=crates/wasm-mutate/src/mutators/rename_export.rs
+[2026-11-25T12:37:51Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=14.6 files_done=22 resolved=964 errors=0 current=crates/wasmparser/tests/big-module.rs
+[2026-11-25T12:38:23Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=15.1 files_done=23 resolved=987 errors=0 current=crates/wasm-encoder/src/core/data.rs
+[2026-11-25T12:40:30Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=17.2 files_done=25 resolved=1127 errors=0 current=crates/wit-component/tests/linking.rs
+[2026-11-25T12:41:01Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=17.7 files_done=28 resolved=1219 errors=0 current=crates/wasm-mutate/src/mutators/translate.rs
+[2026-11-25T12:43:02Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=19.8 files_done=29 resolved=1365 errors=0 current=crates/wast/src/component/item_ref.rs
+[2026-11-25T12:43:40Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=20.4 files_done=30 resolved=1410 errors=0 current=crates/wit-component/src/lib.rs
+[2026-11-25T12:44:17Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=21.0 files_done=31 resolved=1482 errors=0 current=crates/wast/tests/annotations.rs
+[2026-11-25T12:45:30Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=22.2 files_done=32 resolved=1559 errors=0 current=src/bin/wasm-tools/parse.rs
+[2026-11-25T12:46:07Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=22.9 files_done=34 resolved=1612 errors=0 current=crates/wasm-smith/src/config.rs
+[2026-11-25T12:47:05Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=23.8 files_done=36 resolved=1728 errors=0 current=crates/wit-component/src/targets.rs
+[2026-11-25T12:47:45Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=24.5 files_done=39 resolved=1777 errors=0 current=crates/wast/src/core/memory.rs
+[2026-11-25T12:49:14Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=26.0 files_done=40 resolved=1877 errors=0 current=crates/wasm-encoder/src/lib.rs
+[2026-11-25T12:49:51Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=26.6 files_done=42 resolved=1981 errors=0 current=crates/wast/src/core/global.rs
+[2026-11-25T12:50:24Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=27.1 files_done=47 resolved=2038 errors=0 current=fuzz/src/mutate.rs
+[2026-11-25T12:50:58Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=27.7 files_done=50 resolved=2161 errors=0 current=crates/wasmparser/src/readers/component/imports.rs
+[2026-11-25T12:51:29Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=28.2 files_done=51 resolved=2188 errors=0 current=crates/wasmparser/src/readers/component/canonicals.rs
+[2026-11-25T12:51:59Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=28.7 files_done=52 resolved=2214 errors=0 current=src/bin/wasm-tools/strip.rs
+[2026-11-25T12:53:18Z] [iter=16] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=187 new_files_this_iter=55 mem_mb=1521 MB
+[2026-11-25T12:53:18Z] [iter=16] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/56d0d947f175af01eb91d2ff4b20c43858a2b849.nq.gz triples=324070
+[2026-11-25T12:53:21Z] [iter=16] Checkpoint written, exiting with code 7
+[2026-11-25T12:53:21Z] [iter=16] PHASE END: enrich (checkpointed) elapsed_s=1802 elapsed_min=30.0 files_completed=187
