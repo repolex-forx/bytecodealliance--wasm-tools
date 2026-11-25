@@ -1,0 +1,28 @@
+{
+  "commit_sha": "a6160b38674894612df19be6022af9e4e68a2eda",
+  "completed_files": [
+    "crates/wasm-smith/src/core/code_builder.rs",
+    "src/bin/wasm-tools/dump.rs"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/bytecodealliance/wasm-tools/lsp/a6160b38674894612df19be6022af9e4e68a2eda",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a6160b38674894612df19be6022af9e4e68a2eda.nq.gz",
+    "call_sites": 39793,
+    "import_statements": 494,
+    "call_targets_resolved": 3037,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 0,
+    "implements_clauses": 160,
+    "import_modules_denormalized": 909,
+    "import_symbols_denormalized": 0,
+    "extends_class_denormalized": 0,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1805
+}
