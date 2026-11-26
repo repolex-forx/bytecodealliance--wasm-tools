@@ -1,10 +1,18 @@
 {
   "commit_sha": "39a60291b6962d45e3b859e035d810c19161e6ee",
   "completed_files": [
+    "crates/wasm-compose/src/graph.rs",
+    "crates/wasm-mutate/src/mutators/peephole/eggsy/encoder/expr2wasm.rs",
     "crates/wasm-smith/src/core.rs",
+    "crates/wasm-smith/src/core/code_builder/no_traps.rs",
     "crates/wasmparser/src/readers/component/types.rs",
+    "crates/wasmparser/src/validator.rs",
     "crates/wast/src/component/alias.rs",
-    "crates/wit-parser/src/ast/lex.rs"
+    "crates/wast/src/component/binary.rs",
+    "crates/wast/src/component/instance.rs",
+    "crates/wit-component/src/gc.rs",
+    "crates/wit-parser/src/ast/lex.rs",
+    "crates/wit-parser/src/ast/resolve.rs"
   ],
   "completed_types": [],
   "stats": {
@@ -12,7 +20,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/39a60291b6962d45e3b859e035d810c19161e6ee.nq.gz",
     "call_sites": 38168,
     "import_statements": 498,
-    "call_targets_resolved": 1745,
+    "call_targets_resolved": 4646,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -26,5 +34,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1802
+  "elapsed_seconds": 1815
 }
