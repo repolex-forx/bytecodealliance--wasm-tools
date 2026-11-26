@@ -1,0 +1,25 @@
+[2026-11-26T05:25:13Z] === ENRICH ITERATION 11 START | repo=bytecodealliance/wasm-tools sha=0168371f ===
+[2026-11-26T05:25:13Z] [iter=11] PHASE START: enrich repo=bytecodealliance/wasm-tools sha=0168371f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/0168371f-enrich-iter-011.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/0168371fc8c7700c4aebbfabcd9947705eb09eb9.nq.gz
+[2026-11-26T05:25:34Z] [iter=11] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-26T05:26:18Z] [iter=11] AST store loaded triples=4447138 load_secs=43 mem_mb=983 MB
+[2026-11-26T05:26:18Z] [iter=11] Step 2: Finding LSP targets mem_mb=983 MB
+[2026-11-26T05:26:35Z] [iter=11] LSP targets found call_sites=38684 imports=495 extends=0 implements=158 secs=17
+[2026-11-26T05:26:49Z] [iter=11] Loaded checkpoint partial graph triples=229464
+[2026-11-26T05:26:49Z] [iter=11] Primed enclosing-def cache from persisted triples entries=3318
+[2026-11-26T05:27:03Z] [iter=11] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=983 MB
+[2026-11-26T05:27:33Z] [iter=11] Position index built positions=287204 nodes_with_types=353251 secs=30 mem_mb=1459 MB
+[2026-11-26T05:27:33Z] [iter=11] Step 3: Starting LSP resolution mem_mb=1459 MB already_completed_types=[] already_completed_files=79
+[2026-11-26T05:27:33Z] [iter=11] Resolving target type target_type=call_site count=38684
+[2026-11-26T05:28:07Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=0 resolved=0 errors=0 current=crates/wast/src/core/module.rs
+[2026-11-26T05:29:25Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=4.2 files_done=1 resolved=54 errors=0 current=crates/wasm-compose/src/composer.rs
+[2026-11-26T05:30:56Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=5.7 files_done=2 resolved=226 errors=0 current=crates/wasm-encoder/src/component/names.rs
+[2026-11-26T05:31:40Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=6.4 files_done=3 resolved=263 errors=0 current=crates/wit-component/tests/merge.rs
+[2026-11-26T05:37:30Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=12.3 files_done=5 resolved=622 errors=0 current=crates/wasmprinter/src/operator.rs
+[2026-11-26T05:39:11Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=14.0 files_done=6 resolved=733 errors=0 current=crates/wasm-mutate/tests/tests.rs
+[2026-11-26T05:41:39Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=16.4 files_done=8 resolved=893 errors=0 current=crates/wit-parser/src/ast/resolve.rs
+[2026-11-26T05:47:02Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=21.8 files_done=9 resolved=1487 errors=0 current=crates/wast/src/core/binary.rs
+[2026-11-26T05:53:17Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=28.1 files_done=10 resolved=1939 errors=0 current=crates/wast/src/component/types.rs
+[2026-11-26T05:55:22Z] [iter=11] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=89 new_files_this_iter=10 mem_mb=1459 MB
+[2026-11-26T05:55:22Z] [iter=11] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/0168371fc8c7700c4aebbfabcd9947705eb09eb9.nq.gz triples=246779
+[2026-11-26T05:55:25Z] [iter=11] Checkpoint written, exiting with code 7
+[2026-11-26T05:55:25Z] [iter=11] PHASE END: enrich (checkpointed) elapsed_s=1809 elapsed_min=30.1 files_completed=89
