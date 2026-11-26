@@ -3,20 +3,31 @@
   "completed_files": [
     "crates/fuzz-stats/src/bin/failed-instantiations.rs",
     "crates/wasm-compose/src/encoding.rs",
+    "crates/wasm-encoder/src/component/builder.rs",
     "crates/wasm-encoder/src/core/code.rs",
+    "crates/wasm-encoder/src/core/tables.rs",
     "crates/wasm-mutate/src/mutators/peephole/dfg.rs",
     "crates/wasm-mutate/src/mutators/peephole/eggsy/analysis.rs",
     "crates/wasm-mutate/src/mutators/peephole/eggsy/lang.rs",
     "crates/wasm-mutate/src/mutators/translate.rs",
+    "crates/wasm-smith/src/core.rs",
     "crates/wasm-smith/src/core/code_builder.rs",
     "crates/wasm-smith/src/core/code_builder/no_traps.rs",
     "crates/wasmparser/src/readers/core/types.rs",
+    "crates/wasmparser/src/validator/component.rs",
     "crates/wasmparser/src/validator/core.rs",
+    "crates/wasmparser/src/validator/names.rs",
     "crates/wasmparser/src/validator/types.rs",
     "crates/wasmprinter/src/lib.rs",
+    "crates/wast/src/component/binary.rs",
+    "crates/wast/src/lib.rs",
     "crates/wit-component/src/decoding.rs",
     "crates/wit-component/src/encoding/wit/v2.rs",
-    "crates/wit-component/src/validation.rs"
+    "crates/wit-component/src/metadata.rs",
+    "crates/wit-component/src/printing.rs",
+    "crates/wit-component/src/validation.rs",
+    "crates/wit-parser/src/ast.rs",
+    "crates/wit-parser/src/ast/toposort.rs"
   ],
   "completed_types": [],
   "stats": {
@@ -24,7 +35,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0168371fc8c7700c4aebbfabcd9947705eb09eb9.nq.gz",
     "call_sites": 38684,
     "import_statements": 495,
-    "call_targets_resolved": 9792,
+    "call_targets_resolved": 13569,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -38,5 +49,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1810
+  "elapsed_seconds": 1804
 }
