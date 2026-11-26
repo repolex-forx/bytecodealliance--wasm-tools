@@ -1,0 +1,17 @@
+[2026-11-26T03:15:39Z] === ENRICH ITERATION 7 START | repo=bytecodealliance/wasm-tools sha=0168371f ===
+[2026-11-26T03:15:39Z] [iter=7] PHASE START: enrich repo=bytecodealliance/wasm-tools sha=0168371f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/0168371f-enrich-iter-007.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/0168371fc8c7700c4aebbfabcd9947705eb09eb9.nq.gz
+[2026-11-26T03:15:56Z] [iter=7] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-26T03:16:49Z] [iter=7] AST store loaded triples=4447138 load_secs=51 mem_mb=983 MB
+[2026-11-26T03:16:49Z] [iter=7] Step 2: Finding LSP targets mem_mb=983 MB
+[2026-11-26T03:17:03Z] [iter=7] LSP targets found call_sites=38684 imports=495 extends=0 implements=158 secs=14
+[2026-11-26T03:17:09Z] [iter=7] Loaded checkpoint partial graph triples=145207
+[2026-11-26T03:17:09Z] [iter=7] Primed enclosing-def cache from persisted triples entries=1933
+[2026-11-26T03:17:20Z] [iter=7] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=983 MB
+[2026-11-26T03:17:40Z] [iter=7] Position index built positions=287204 nodes_with_types=353251 secs=20 mem_mb=1299 MB
+[2026-11-26T03:17:40Z] [iter=7] Step 3: Starting LSP resolution mem_mb=1299 MB already_completed_types=[] already_completed_files=41
+[2026-11-26T03:17:40Z] [iter=7] Resolving target type target_type=call_site count=38684
+[2026-11-26T03:18:08Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=0 resolved=0 errors=0 current=crates/wasmparser/src/validator/operators.rs
+[2026-11-26T03:45:47Z] [iter=7] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=41 new_files_this_iter=0 mem_mb=1320 MB
+[2026-11-26T03:45:47Z] [iter=7] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/0168371fc8c7700c4aebbfabcd9947705eb09eb9.nq.gz triples=158945
+[2026-11-26T03:45:49Z] [iter=7] Checkpoint written, exiting with code 7
+[2026-11-26T03:45:49Z] [iter=7] PHASE END: enrich (checkpointed) elapsed_s=1809 elapsed_min=30.1 files_completed=41
