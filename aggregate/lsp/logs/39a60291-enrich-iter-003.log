@@ -1,0 +1,17 @@
+[2026-11-26T10:03:42Z] === ENRICH ITERATION 3 START | repo=bytecodealliance/wasm-tools sha=39a60291 ===
+[2026-11-26T10:03:42Z] [iter=3] PHASE START: enrich repo=bytecodealliance/wasm-tools sha=39a60291 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/39a60291-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/39a60291b6962d45e3b859e035d810c19161e6ee.nq.gz
+[2026-11-26T10:04:04Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-26T10:04:47Z] [iter=3] AST store loaded triples=4334285 load_secs=41 mem_mb=970 MB
+[2026-11-26T10:04:47Z] [iter=3] Step 2: Finding LSP targets mem_mb=970 MB
+[2026-11-26T10:05:04Z] [iter=3] LSP targets found call_sites=38168 imports=498 extends=0 implements=172 secs=18
+[2026-11-26T10:05:07Z] [iter=3] Loaded checkpoint partial graph triples=42577
+[2026-11-26T10:05:07Z] [iter=3] Primed enclosing-def cache from persisted triples entries=858
+[2026-11-26T10:05:20Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=970 MB
+[2026-11-26T10:05:49Z] [iter=3] Position index built positions=277739 nodes_with_types=343083 secs=29 mem_mb=1061 MB
+[2026-11-26T10:05:49Z] [iter=3] Step 3: Starting LSP resolution mem_mb=1061 MB already_completed_types=[] already_completed_files=12
+[2026-11-26T10:05:49Z] [iter=3] Resolving target type target_type=call_site count=38168
+[2026-11-26T10:06:18Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=2.6 files_done=0 resolved=0 errors=0 current=crates/wasmparser/src/binary_reader.rs
+[2026-11-26T10:34:02Z] [iter=3] CHECKPOINT TRIGGERED elapsed_min=30.3 files_completed=12 new_files_this_iter=0 mem_mb=1068 MB
+[2026-11-26T10:34:02Z] [iter=3] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/39a60291b6962d45e3b859e035d810c19161e6ee.nq.gz triples=50686
+[2026-11-26T10:34:03Z] [iter=3] Checkpoint written, exiting with code 7
+[2026-11-26T10:34:03Z] [iter=3] PHASE END: enrich (checkpointed) elapsed_s=1820 elapsed_min=30.3 files_completed=12
