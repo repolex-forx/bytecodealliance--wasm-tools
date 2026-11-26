@@ -13,15 +13,18 @@
     "crates/wasm-mutate-stats/src/bin/wasm-mutate-stats.rs",
     "crates/wasm-mutate/src/lib.rs",
     "crates/wasm-mutate/src/mutators/add_type.rs",
+    "crates/wasm-mutate/src/mutators/codemotion/ir.rs",
     "crates/wasm-mutate/src/mutators/custom.rs",
     "crates/wasm-mutate/src/mutators/modify_const_exprs.rs",
     "crates/wasm-mutate/src/mutators/peephole.rs",
     "crates/wasm-mutate/src/mutators/peephole/dfg.rs",
     "crates/wasm-mutate/src/mutators/peephole/eggsy/analysis.rs",
     "crates/wasm-mutate/src/mutators/peephole/eggsy/lang.rs",
+    "crates/wasm-mutate/src/mutators/remove_item.rs",
     "crates/wasm-mutate/src/mutators/translate.rs",
     "crates/wasm-smith/src/component.rs",
     "crates/wasm-smith/src/component/encode.rs",
+    "crates/wasm-smith/src/config.rs",
     "crates/wasm-smith/src/core.rs",
     "crates/wasm-smith/src/core/code_builder.rs",
     "crates/wasm-smith/src/core/code_builder/no_traps.rs",
@@ -36,6 +39,7 @@
     "crates/wasmprinter/src/lib.rs",
     "crates/wast/src/component/binary.rs",
     "crates/wast/src/component/func.rs",
+    "crates/wast/src/component/instance.rs",
     "crates/wast/src/core/export.rs",
     "crates/wast/src/core/memory.rs",
     "crates/wast/src/core/resolve/deinline_import_export.rs",
@@ -52,15 +56,19 @@
     "crates/wit-component/src/targets.rs",
     "crates/wit-component/src/validation.rs",
     "crates/wit-component/tests/components.rs",
+    "crates/wit-component/tests/wit.rs",
     "crates/wit-parser/src/ast.rs",
     "crates/wit-parser/src/ast/lex.rs",
     "crates/wit-parser/src/ast/toposort.rs",
     "crates/wit-parser/src/lib.rs",
+    "crates/wit-parser/src/live.rs",
     "crates/wit-parser/src/resolve.rs",
+    "crates/wit-smith/src/generate.rs",
     "fuzz/src/roundtrip_wit.rs",
     "fuzz/src/validate_valid_module.rs",
     "src/bin/wasm-tools/component.rs",
-    "src/lib.rs"
+    "src/lib.rs",
+    "tests/roundtrip.rs"
   ],
   "completed_types": [],
   "stats": {
@@ -68,7 +76,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0168371fc8c7700c4aebbfabcd9947705eb09eb9.nq.gz",
     "call_sites": 38684,
     "import_statements": 495,
-    "call_targets_resolved": 21906,
+    "call_targets_resolved": 23577,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -82,5 +90,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1801
+  "elapsed_seconds": 1818
 }
